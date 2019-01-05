@@ -26,10 +26,13 @@ private:
 
 private slots:
 	void initTestCase();
-	//void init();
+	void init();
 	void cleanupTestCase();
 	//void cleanup();
+
     void normal();
+    void OneZeroMark();
+    void DefaultSheet();
 
 };
 
